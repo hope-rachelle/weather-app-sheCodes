@@ -105,3 +105,12 @@ img {
   font-size: 14px;
   font-weight: 300;
 }
+.github {
+  text-align: left;
+  color: #3e979b;
+  text-decoration: none;
+  font-weight: bold;
+}
+.github:hover {
+  color: #206366;
+}
