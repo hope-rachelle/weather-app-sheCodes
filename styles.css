@@ -1,0 +1,107 @@
+.container {
+  display: block;
+  text-align: center;
+  margin: 3em;
+}
+
+.card-body {
+  background: linear-gradient(to top, #f1e7bbe8 10%, #dbfcfd 100%);
+  font-family: "Architects Daughter", cursive;
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+#current-city {
+  padding-right: 40px;
+}
+
+#button,
+#location {
+  background-color: #5fa5a7;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+#button:hover {
+  cursor: pointer;
+  background: #3e979b;
+}
+#location:hover {
+  cursor: pointer;
+  background: #3e979b;
+}
+
+img {
+  position: absolute;
+  opacity: 10%;
+  top: 65px;
+  left: 0;
+  height: 420px;
+  width: 478px;
+  border-radius: 5px;
+}
+
+.my-city {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+#conditions {
+  list-style: none;
+}
+.city-temp {
+  padding-bottom: 80px;
+}
+
+.current-temp {
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+#celcius {
+  font-size: 18px;
+  position: relative;
+  top: -12px;
+  right: 1px;
+}
+.degree-units {
+  position: relative;
+  top: -16px;
+  right: 12px;
+}
+
+#stl-emoji {
+  font-size: 40px;
+  color: #3e979b;
+}
+
+.time-temp {
+  font-size: 12px;
+}
+
+.days {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 90px;
+}
+
+.weather-emojis {
+  font-size: 15px;
+  color: #3e979b;
+  padding-bottom: 10px;
+}
+
+.high-temp {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.low-temp {
+  font-size: 14px;
+  font-weight: 300;
+}
